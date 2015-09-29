@@ -1,0 +1,25 @@
+@import url(header.css);
+@import url(nav&cont.css);
+@import url(content.css);
+@import url(footer.css);
+@import url(../fonts/fira.css);
+/*General Styles*/
+ html, body {
+    height:100%;
+    margin: 0;
+    line-height:1;
+}
+.wrapper {
+    margin:auto;
+    min-height:100%;
+    background: url(../img/comppattern2.png);
+}
+/*--------------CLEAR FIX---------------*/
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+.clearfix:after {
+    clear: both;
+}

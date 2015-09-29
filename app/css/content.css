@@ -1,0 +1,291 @@
+/*----------------CONTENT---------------*/
+.content {
+    padding-bottom:115px;
+    width:960px;
+    margin:0 auto;
+}
+/*-------------ОСНОВНОЙ КОНТЕНТ-----------*/
+.section {
+    float:right;
+}
+.big-ul {
+}
+.big-ul-item{
+    background:#eff3f7;
+    height:100%;
+    width:650px;
+    border-radius: 5px;
+    padding-bottom:27px;
+    margin-bottom:25px;
+}
+.zagolovok{
+    color: #3ba8c0;
+    font-family:'fira_sansbook';
+    font-weight:normal;
+    font-style:normal;
+    font-size:27px;
+    height:46px;
+    width:320px;
+    padding:21px 0 0 21px;
+    border-bottom:2px solid #3ba8c0;
+}
+.main-image {
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    border: 5px solid #30a6bd;
+    margin:35px 0 0 55px;
+    float:left;
+    overflow:hidden;
+}
+.keys{
+    float:left;
+}
+.info {
+    margin:21px 0 0 73px;
+    padding:5px 0 15px 156px;
+}
+.my-info{
+    margin-top:-19px;
+}
+.my-info-item{
+    margin-top:16px;
+}
+.skill{
+    margin-left:18px;
+    width:200px;
+    float:left;
+}
+.skills{
+    padding:2px;
+    padding-top:4px;
+}
+.term{
+    font-size: 15px;
+    padding-left:13px;
+    margin-top:2px;
+}
+.big-ul-text-item{
+    font-size: 17px;
+    font-family:'fira_sansbook';
+    font-weight:normal;
+    padding-left:13px;
+}
+.text-area{
+     padding-left:35px;
+}
+.big-ul-list{
+    padding:14px 14px 6px 14px;
+}
+.big-ul-list-item{
+    background:url(../img/portf.png) 9px center no-repeat;
+    padding:13px 12px 12px 62px;
+}
+.big-ul-list-item-hat{
+    background:url(../img/hat.png) 6px center no-repeat;
+    padding:13px 12px 12px 62px;
+}
+.big-ul-list-item-file{
+    background:url(../img/file.png) 14px center no-repeat;
+    padding:13px 12px 12px 62px;
+}
+.spantext{
+    font-family:'fira_sansbook';
+    font-size:15px;
+    color:#4a545d;
+    padding-left:19px;
+}
+.paragraph-info{
+    font-family:'fira_sansmedium';
+    font-size:17px;
+    color:#4a545d;
+}
+.hat-img{
+    margin-left:-3px;
+}
+.file-img{
+    margin:12px 5px;
+}
+.paragraph{
+    font-family:'fira_sanslight';
+}
+/*------------MY WORKS-----------*/
+.my-jobs-title{
+    color: #3ba8c0;
+    font-family:'fira_sansbook';
+    font-weight:normal;
+    font-style:normal;
+    font-size:27px;
+    height:45px;
+    width:320px;
+    padding:22px 0 0 25px;
+    border-bottom:2px solid #3ba8c0;
+}
+.my-jobs{
+    margin-left:1px;
+}
+.my-jobs-item{
+    float:left;
+    width:179px;
+    padding:27px 15px 17px 19px;
+}
+.img-dec{
+    width:179px;
+    height:125px;
+    border:2px solid #30a6bd;
+    border-radius:8px 8px 8px 8px;
+}
+.my-jobs-item-inside{
+    padding-top:16px;
+    text-align:center;
+    font-family:'fira_sanslight';
+    font-size:15px;
+}
+.my-jobs-item-link{
+    font-family:'fira_sanslight_Italic';
+    font-size:13px;
+    text-align:center;
+    color:#30a6bd;
+    padding:6px 2px 0 0;
+}
+.link-in-jobs{
+    text-decoration:none;
+}
+/*---------------CONTACT FORM-------------*/
+.cont-title{
+    background:#48cbe8;
+    font-family:'fira_sansbook';
+    font-size: 27px;
+    font-weight:normal;
+    color: #FFF;
+    padding:50px 55px 61px 59px;
+    border-radius:5px 5px 5px 5px;
+    position:relative;
+}
+.cont-title:after{
+    content:"";
+    background: #67dffa;
+    height:17px;
+    width:650px;
+    position:absolute;
+    bottom:0;
+    display:table;
+    clear:both;
+    margin-left:-59px;
+}
+.form{
+    width:402px;
+    margin:48px auto;
+    padding-bottom:122px;
+}
+.yourname{
+    width:210px;
+    float:left;
+}
+.input{
+    width:190px;
+    height:37px;
+    border: 1px solid #48cbe8; 
+    border-radius: 3px 3px;
+    font-family:'fira_sanslight';
+    color:#48cbe8; 
+    font-size:13px;
+}
+.form-text-font{
+    padding-bottom:3px;
+    font-family:'fira_sanslight';
+    font-size:19px;
+    color:#9ca1ae;
+    margin-left:-1px;
+}
+.form-textarea{
+    padding-bottom:3px;
+    margin:17px 0 0 -1px;
+    font-family:'fira_sanslight';
+    font-size:19px;
+    color:#9ca1ae;
+}
+.textarea{
+   width:396px;
+   height:177px;
+   border:1px solid #48cbe8; 
+   border-radius: 3px 3px;
+   font-family:'fira_sanslight';
+   font-size:13px;
+   resize:none;
+}
+.form-text-captcha{
+   padding-bottom:4px;
+   margin:14px 0 0 -2px;
+   font-family:'fira_sanslight';
+   font-size:17px;
+   color:#9ca1ae;        
+}
+.captcha-img{
+    float:left;
+    padding-bottom:21px;
+}
+.captcha-code{
+    
+}
+.captcha-input{
+    margin:21px 0 0 19px;
+    width:190px;
+    height:28px;
+    border: 1px solid #48cbe8; 
+    border-radius: 3px 3px;
+    font-family:'fira_sanslight';
+    color:#48cbe8; 
+    font-size:13px;
+}
+.buttons{
+    width:402px;
+}
+.submit-one{
+  float:left;
+  padding:2px;
+  width:140px;
+  border:none;
+  font-family:'fira_sansbook';
+  font-size:19px;
+  color:white;
+  background:url(../img/submit-one.png) no-repeat;  
+}
+.submit-two{
+  float:right;
+  margin-right:-2px;
+  width:128px;
+  border:none;
+  font-family:'fira_sansbook';
+  font-size:19px;
+  color:white;
+  background:url(../img/submit-two.png) no-repeat; 
+
+}
+.submit-one:hover{
+    background:url(../img/submit-one-hover.png) no-repeat;
+    padding:3px;
+}
+.submit-two:hover{
+    background:url(../img/submit-two-hover.png) no-repeat;
+
+    padding:3px;
+}
+/*-----------PLACEHOLDER-------------*/
+.input::-webkit-input-placeholder, .captcha-input::-webkit-input-placeholder{
+    color:#48cbe8;
+    padding-left:8px;
+}
+.input:-moz-placeholder, .captcha-input:-moz-placeholder{
+    color:#48cbe8; 
+    padding-left:8px;
+}
+.textarea::-webkit-input-placeholder{
+    color:#48cbe8;
+    padding:7px 0 0 7px;
+}
+.textarea:-moz-placeholder{
+    color:#48cbe8; 
+    padding:7px 0 0 7px;
+}
+/*----------------END CONTENT---------------*/
