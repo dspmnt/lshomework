@@ -1,4 +1,4 @@
-# Как установить мой проект:                                                                                        Самопрезентация LoftSchool
+# Как установить мой проект:                                                                                                                   Самопрезентация LoftSchool
 1) git clone https://github.com/dspmnt/lshomework.git                                                                            
 2) cd site                                                                                                                       
 3) bower i                                                                                                                       
