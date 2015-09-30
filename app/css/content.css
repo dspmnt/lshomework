@@ -137,12 +137,14 @@
     border-bottom:2px solid #3ba8c0;
 }
 .my-jobs{
+    padding:0;
     margin-left:1px;
 }
 .my-jobs-item{
+    padding:0;
     float:left;
     width:179px;
-    padding:27px 15px 17px 19px;
+    padding:27px 15px 16px 19px;
 }
 .img-dec{
     width:179px;
@@ -151,17 +153,22 @@
     border-radius:8px 8px 8px 8px;
 }
 .my-jobs-item-inside{
+    margin:0;
     padding-top:16px;
     text-align:center;
     font-family:'fira_sanslight';
     font-size:15px;
 }
 .my-jobs-item-link{
+    margin:0;
     font-family:'fira_sanslight_Italic';
     font-size:13px;
     text-align:center;
     color:#30a6bd;
     padding:6px 2px 0 0;
+}
+.list-of-jobs{
+    padding:0;
 }
 .link-in-jobs{
     text-decoration:none;
@@ -208,6 +215,7 @@
     font-size:13px;
 }
 .form-text-font{
+    margin:0;
     padding-bottom:3px;
     font-family:'fira_sanslight';
     font-size:19px;

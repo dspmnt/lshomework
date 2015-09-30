@@ -2,7 +2,6 @@
 @import url(nav&cont.css);
 @import url(content.css);
 @import url(footer.css);
-@import url(../fonts/fira.css);
 /*General Styles*/
  html, body {
     height:100%;
