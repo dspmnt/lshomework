@@ -15,7 +15,7 @@
     top:0;
 }
 .foot-wrap{
-    max-width:1200px;
+    max-width:960px;
     margin:auto;
     padding-top:26px;
 }
@@ -35,11 +35,13 @@
     background:url(../img/lockhover.png) no-repeat;
 }
 .wrap-right{
+    padding-top:9px;
+    margin-right:6px;
     float:right;
-    padding:9px 2px 0 0;
 }
 .ftext-area{
-font-family:'fira_sanslight';
-font-size:13px;
-width:670px;
+    margin:0;
+    font-family:'fira_sanslight';
+    font-size:13px;
+    width:670px;
 }

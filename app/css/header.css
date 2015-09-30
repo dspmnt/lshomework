@@ -55,7 +55,6 @@
     background:url(../img/githover.png) no-repeat;
 }
 .man{
-    margin-left:2px;
     padding-top:7px;
     float:left;
 }
@@ -65,18 +64,21 @@
     float:left;
 }
 .logos{
+    padding:0;
     margin-top:32px;
 }
 .left-image{
+    margin-left:2px;
     float:left;
 }
 .socials{
+    margin-right:-1px;
     float:right;
 
 }
 .vk-soc, .twit-soc, .face-soc, .git-soc{
     padding-left:17px;
-    margin-top:35px;
+    margin-top:19px;
     display:inline-block;
 }
 

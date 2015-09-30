@@ -1,24 +1,29 @@
 /*----------------CONTENT---------------*/
 .content {
-    padding-bottom:115px;
+    padding-bottom:90px;
     width:960px;
     margin:0 auto;
 }
 /*-------------ОСНОВНОЙ КОНТЕНТ-----------*/
 .section {
+    margin:0;
+    padding:0;
     float:right;
 }
 .big-ul {
+    margin-top:0;
+    padding:0;
 }
 .big-ul-item{
     background:#eff3f7;
     height:100%;
     width:650px;
     border-radius: 5px;
-    padding-bottom:28px;
-    margin-bottom:24px;
+    padding-bottom:23px;
+    margin-bottom:26px;
 }
 .zagolovok{
+    margin:0;
     color: #3ba8c0;
     font-family:'fira_sansbook';
     font-weight:normal;
@@ -26,27 +31,30 @@
     font-size:27px;
     height:46px;
     width:320px;
-    padding:21px 0 0 21px;
+    padding:21px 0 0 22px;
     border-bottom:2px solid #3ba8c0;
+    margin-bottom:25px;
 }
+
 .main-image {
     border-radius: 100%;
     width: 140px;
     height: 140px;
     border: 5px solid #30a6bd;
-    margin:35px 0 0 55px;
+    margin:10px 0 0 55px;
     float:left;
     overflow:hidden;
 }
 .keys{
+    margin-top:-2px;
     float:left;
 }
 .info {
-    margin:21px 0 0 73px;
-    padding:5px 0 15px 156px;
+    margin:0 0 0 49px;
+    padding:5px 0 15px 140px;
 }
 .my-info{
-    margin-top:-19px;
+    margin-top:-25px;
 }
 .my-info-item{
     margin-top:16px;
@@ -57,37 +65,41 @@
     float:left;
 }
 .skills{
-    padding:2px;
-    padding-top:4px;
+    padding:1px 2px 5px 2px;
 }
 .term{
+    margin-top:-10px;
     font-size: 15px;
     padding-left:13px;
-    margin-top:2px;
+
+}
+.big-ul-list{
+    padding-bottom:7px;
 }
 .big-ul-text-item{
     font-size: 17px;
     font-family:'fira_sansbook';
     font-weight:normal;
-    padding-left:13px;
+    padding-left:33px;
 }
 .text-area{
-     padding-left:35px;
+     padding-left:9px;
 }
-.big-ul-list{
-    padding:14px 14px 6px 14px;
+.big-ul-list-item-port-one{
+    background:url(../img/portf.png) 9px 2px no-repeat;
+    padding:0 12px 0 42px;
 }
-.big-ul-list-item{
-    background:url(../img/portf.png) 9px center no-repeat;
-    padding:13px 12px 12px 62px;
+.big-ul-list-item-port-two{
+    background:url(../img/portf.png) 9px 4px no-repeat;
+    padding:0 12px 0 42px;
 }
 .big-ul-list-item-hat{
-    background:url(../img/hat.png) 6px center no-repeat;
-    padding:13px 12px 12px 62px;
+    background:url(../img/hat.png) 6px 2px no-repeat;
+    padding:0 12px 0 42px;
 }
 .big-ul-list-item-file{
-    background:url(../img/file.png) 14px center no-repeat;
-    padding:13px 12px 12px 62px;
+    background:url(../img/file.png) 14px 5px no-repeat;
+    padding:0 12px 0 42px;
 }
 .spantext{
     font-family:'fira_sansbook';
@@ -108,9 +120,11 @@
 }
 .paragraph{
     font-family:'fira_sanslight';
+    padding-left:20px;
 }
 /*------------MY WORKS-----------*/
 .my-jobs-title{
+    margin:0;
     color: #3ba8c0;
     font-family:'fira_sansbook';
     font-weight:normal;
@@ -153,6 +167,7 @@
 }
 /*---------------CONTACT FORM-------------*/
 .cont-title{
+    margin:0;
     background:#48cbe8;
     font-family:'fira_sansbook';
     font-size: 27px;
