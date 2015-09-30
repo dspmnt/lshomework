@@ -19,7 +19,7 @@
     height:100%;
     width:650px;
     border-radius: 5px;
-    padding-bottom:23px;
+    padding-bottom:21px;
     margin-bottom:26px;
 }
 .zagolovok{
@@ -33,7 +33,7 @@
     width:320px;
     padding:21px 0 0 22px;
     border-bottom:2px solid #3ba8c0;
-    margin-bottom:25px;
+    margin-bottom:22px;
 }
 
 .main-image {
@@ -41,23 +41,22 @@
     width: 140px;
     height: 140px;
     border: 5px solid #30a6bd;
-    margin:10px 0 0 55px;
+    margin:13px 0 0 55px;
     float:left;
     overflow:hidden;
 }
 .keys{
-    margin-top:-2px;
     float:left;
 }
 .info {
-    margin:0 0 0 49px;
-    padding:5px 0 15px 140px;
+    margin-left:49px;
+    padding:0 0 0 140px;
 }
 .my-info{
-    margin-top:-25px;
+
 }
 .my-info-item{
-    margin-top:16px;
+    padding-bottom:17px;
 }
 .skill{
     margin-left:18px;
@@ -68,37 +67,42 @@
     padding:1px 2px 5px 2px;
 }
 .term{
-    margin-top:-10px;
     font-size: 15px;
     padding-left:13px;
-
 }
 .big-ul-list{
     padding-bottom:7px;
 }
 .big-ul-text-item{
+    margin:0;
     font-size: 17px;
     font-family:'fira_sansbook';
     font-weight:normal;
     padding-left:33px;
 }
+.paragraph{
+    margin:0;
+    font-family:'fira_sanslight';
+    padding:5px 0 0 20px;
+}
 .text-area{
      padding-left:9px;
+     padding-bottom:15px;
 }
 .big-ul-list-item-port-one{
-    background:url(../img/portf.png) 9px 2px no-repeat;
-    padding:0 12px 0 42px;
+    background:url(../img/portf.png) 9px 5px no-repeat;
+    padding:5px 12px 21px 42px;
 }
 .big-ul-list-item-port-two{
-    background:url(../img/portf.png) 9px 4px no-repeat;
+    background:url(../img/portf.png) 9px top no-repeat;
     padding:0 12px 0 42px;
 }
 .big-ul-list-item-hat{
-    background:url(../img/hat.png) 6px 2px no-repeat;
-    padding:0 12px 0 42px;
+    background:url(../img/hat.png) 6px 5px no-repeat;
+    padding:5px 12px 21px 42px;
 }
 .big-ul-list-item-file{
-    background:url(../img/file.png) 14px 5px no-repeat;
+    background:url(../img/file.png) 14px 1px no-repeat;
     padding:0 12px 0 42px;
 }
 .spantext{
@@ -108,6 +112,7 @@
     padding-left:19px;
 }
 .paragraph-info{
+    margin:0;
     font-family:'fira_sansmedium';
     font-size:17px;
     color:#4a545d;
@@ -117,10 +122,6 @@
 }
 .file-img{
     margin:12px 5px;
-}
-.paragraph{
-    font-family:'fira_sanslight';
-    padding-left:20px;
 }
 /*------------MY WORKS-----------*/
 .my-jobs-title{
