@@ -14,14 +14,13 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="fonts/fira.css">
 	<!--Favicon-->
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon-76x76.png">
-	<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/favicon/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicon/manifest.json">
 	<meta name="apple-mobile-web-app-title" content="makskluch.ru">
 	<meta name="application-name" content="makskluch.ru">
 	<meta name="msapplication-TileColor" content="#da532c">
@@ -85,8 +84,8 @@
 					<input class="captcha-input" value="" type="text" name="name" id="name" placeholder="Введите код">
 			</label>
 			<div class="buttons clearfix">
-				<input class="submit-one" type="submit" name="submit" id="submit" value="Отправить">
-				<input class="submit-two" type="submit" name="submit" id="submit" value="Очистить">
+				<button class="submit-one" type="submit" name="submit" id="submit" value="">Отправить</button>
+				<button class="submit-two" type="reset" name="submit" id="submit" value="">Очистить</button>
 
 			</div>
 	</form>
@@ -106,5 +105,7 @@
 		</div><!--end wrap-right-->
 		</div><!--end main-wrap-->
 	</footer><!--end footer-->
+		<script src="../bower/jquery/jquery.js"> </script>
+		<script src="js/main.js"></script>
 </body>
 </html>

@@ -14,13 +14,13 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="fonts/fira.css">
 	<!--Favicon-->
-	<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon-76x76.png">
-	<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/favicon/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicon/manifest.json">
 	<meta name="apple-mobile-web-app-title" content="makskluch.ru">
 	<meta name="application-name" content="makskluch.ru">
 	<meta name="msapplication-TileColor" content="#da532c">
@@ -71,38 +71,70 @@
 						<ul class="my-jobs clearfix">
 						<li class="my-jobs-item">
 						<ul class="list-of-jobs">
-							<li><a class="my-jobs-item-inside" href="#"><img class="img-dec" src="img/work-one.jpg" alt=""></a></li>
-							<li><a class="link-in-jobs" href="#"><p class="my-jobs-item-link">www.site.ru</p></a></li>
+							<li><a class="my-jobs-item-inside" href="#">
+							<img class="img-dec" src="img/work-one.jpg" alt="">Подробнее</a></li>
+							<li><a class="link-in-jobs" href="#">
+							<p class="my-jobs-item-link">www.site.ru</p></a>
+							</li>
 							<li><p class="my-jobs-item-inside">Информация о проекте 1 превью 2 строки...</p></li>
 						</ul>
 						</li>
 						<li class="my-jobs-item">					
 							<ul class="list-of-jobs">
-							<li><a class="my-jobs-item-inside" href="#"><img class="img-dec" src="img/work-two.jpg" alt=""></a></li>
+							<li><a class="my-jobs-item-inside" href="#"><img class="img-dec" src="img/work-two.jpg" alt="">Подробнее</a></li>
 								<li><a class="link-in-jobs" href="#"><p class="my-jobs-item-link">www.site.ru</p></a></li>
 							<li><p class="my-jobs-item-inside">Информация о проекте 1 превью 2 строки...</p></li>
 						</ul></li>
 						<li class="my-jobs-item">						
 						<ul class="list-of-jobs">
-							<li><a class="my-jobs-item-inside" href="#"><img class="img-dec" src="img/work-three.jpg" alt=""></a></li>
+							<li><a class="my-jobs-item-inside" href="#"><img class="img-dec" src="img/work-three.jpg" alt="">Подробнее</a></li>
 								<li><a class="link-in-jobs" href="#"><p class="my-jobs-item-link">www.site.ru</p></a></li>
 							<li><p class="my-jobs-item-inside">Информация о проекте 1 превью 2 строки...</p></li>
 						</ul></li>
 						<li class="my-jobs-item">					
 							<ul class="list-of-jobs">
-							<li><a class="my-jobs-item-inside" href="#"><img class="img-dec" src="img/work-four.jpg" alt=""></a></li>
+							<li><a class="my-jobs-item-inside" href="#">
+							<img class="img-dec" src="img/work-four.jpg" alt="">Подробнее</a></li>
 								<li><a class="link-in-jobs" href="#"><p class="my-jobs-item-link">www.site.ru</p></a></li>
 							<li><p class="my-jobs-item-inside">Информация о проекте 1 превью 2 строки...</p></li>
 						</ul></li>
 						<li class="my-jobs-item">					
 							<ul class="list-of-jobs">
-							<li><a class="my-jobs-item-inside" href="#"><img src="img/add-new.png" alt=""></a></li>
+							<li><button id="popup-button" class="my-jobs-item-add" href="#"><img src="img/add-new.png" alt=""></button></li>
 						</ul></li>
 						</ul><!--end my-jobs-->
 						</div><!--end jobs-->
-					</li><!--end self-->
-		
+					</li><!--end big-ul-item-->
 	</ul><!--end big ul-->
+	<div id="pop-it-up" class="popup">
+		<div class="popup-head clearfix">
+			<h2 class="popup-title">Добавление проекта</h2>
+			<div class="close">
+				<button id="close-it" class="close-popup"><img src="img/close.png" height="25" width="25" alt=""></button>
+			</div>
+		</div>
+		<div class="popup-body">
+				<label class="popup-project"><p class="popup-text-font">Название проекта</p>
+				<input class="popup-input" value="" type="text" name="name" id="name" placeholder="Введите название">
+			</label>
+			<div class="title-fileupload"><p class="popup-text-font">Картинка проекта</p></div>
+				<label class="file_upload">
+        <span class="button">Выберите файл</span>
+        <mark class="mark-text">Загрузите изображение</mark>
+        <input type="file">
+    </label>
+			<label class="popup-link"><p class="popup-text-font">URL проекта</p>
+				<input class="popup-input" value="" type="text" name="name" id="name" placeholder="Добавьте ссылку">
+			</label>
+			<label class="popup-description"><p class="popup-text-font">Описание</p>
+				<textarea class="popup-textarea" name="message" id="message" placeholder="Пара слов о вашем проекте"></textarea>
+				</label>
+				<div class="popup-button">
+					<button class="popup-submit-one" type="submit" name="submit" id="submit" value="">Добавить</button>
+				</div>
+		</div><!--end popup-body-->
+	</div><!--end popup-->
+	 
 	</section><!--end section-->
 	</div><!--end content-->
 	</div><!--end wrapper-->
@@ -116,5 +148,8 @@
 		</div><!--end wrap-right-->
 		</div><!--end main-wrap-->
 	</footer><!--end footer-->
+		<script src="../bower/jquery/jquery.js"></script>
+		<script src="js/main.js"></script>
+		<script src="bower/bPopup/jquery.bpopup.min.js"></script>
 </body>
 </html>
