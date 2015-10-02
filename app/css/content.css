@@ -506,11 +506,112 @@ display:none;
 }
 .submit-one:hover{
     background:url(../img/submit-one-hover.png) no-repeat;
-    margin-top:3px;
+    padding-bottom:8px;
 }
 .submit-two:hover{
     background:url(../img/submit-two-hover.png) no-repeat;
-    margin-top:3px;
+    padding-bottom:8px;
+}
+/*-------------AUTHORIZE------------------*/
+.auth-section{
+    position:relative;
+    width:100%;
+}
+.auth-section:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.auth{
+    position:relative;
+    right:50%;
+    float:right;
+    margin-top:180px;
+
+}
+.auth-item{
+    position:relative;
+    z-index:1;
+    right:-50%;
+    box-shadow:0 3px 8px -3px;
+}
+.auth-item{
+    background:#eff3f7;
+    height:100%;
+    width:590px;
+    border-radius: 5px;
+    padding-bottom:21px;
+}
+.auth-form{
+    text-align:center;
+
+}
+.auth-title{
+    margin:0 auto;
+    background:#48cbe8;
+    font-family:'fira_sansbook';
+    font-size: 40px;
+    font-weight:normal;
+    text-align:center;
+    color: #FFF;
+    padding:33px 55px 34px 59px;
+    border-radius:5px 5px 5px 5px;
+    position:relative;
+}
+.auth-title:after{
+    content:"";
+    background: #67dffa;
+    height:15px;
+    width:590px;
+    position:absolute;
+    bottom:0;
+    display:table;
+    clear:both;
+    margin-left:-59px;
+}
+.auth-text-font{
+    margin:0;
+    padding:0;
+    font-family:'fira_sanslight';
+    font-size:36px;
+    color:#9ca1ae;
+    text-align:center;
+    padding:25px 0 12px 0;
+}
+.login{
+   margin:0 auto; 
+}
+.input-auth{
+    margin:0 auto;
+    width:422px;
+    height:58px;
+    border: 1px solid #48cbe8; 
+    border-radius: 3px 3px;
+    font-family:'fira_sanslight';
+    color:#48cbe8; 
+    font-size:13px;
+}
+.auth-submit{
+    float:left;
+    text-align:center;
+    padding:2px;
+    width:226px;
+    height:54px;
+    border:none;
+    outline:none;
+    font-family:'fira_sansbook';
+    font-size:36px;
+    color:white;
+    background:url(../img/login.png) no-repeat center;  
+}
+.auth-submit:hover{
+   background:url(../img/login-hover.png) no-repeat center; 
+   padding-top:8px; 
+}
+.auth-buttons{
+    width:402px;
+    margin:30px 0 0 180px;
+    padding-bottom:20px;
 }
 /*-----------PLACEHOLDER-------------*/
 .input::-webkit-input-placeholder, .captcha-input::-webkit-input-placeholder{
@@ -544,5 +645,16 @@ display:none;
 .popup-textarea:-moz-placeholder{
     color:#48cbe8; 
     padding:11px 0 0 7px;
+}
+.input-auth::-webkit-input-placeholder{
+    color:#48cbe8;
+    padding-left:18px;
+    font-size:17px;
+
+}
+.input-auth:-moz-placeholder{
+    color:#48cbe8; 
+    padding-left:18px;
+    font-size:17px;
 }
 /*----------------END CONTENT---------------*/
