@@ -41,7 +41,10 @@ $( window ).resize(function(){
             modalColor:'#58697a'
         });
         });
-
+         /*Закрытие окна Добавления проекта*/
+        $('#close-it').on('click', function(e){
+            popup.close();
+        });
     });
  })(jQuery);
- /*Закрытие окна Добавления проекта*/
+
