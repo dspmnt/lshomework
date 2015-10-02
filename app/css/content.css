@@ -63,6 +63,7 @@
     width:200px;
     float:left;
     padding-left:16px;
+    padding-bottom:4px;
 }
 .skills-list{
     padding:0;
@@ -145,15 +146,14 @@
 }
 /*------------MY WORKS-----------*/
 .my-jobs-title{
-    margin:0;
+   margin:0;
     color: #3ba8c0;
     font-family:'fira_sansbook';
     font-weight:normal;
     font-style:normal;
     font-size:27px;
-    height:45px;
     width:320px;
-    padding:22px 0 0 25px;
+    padding:21px 0 19px 24px;
     border-bottom:2px solid #3ba8c0;
 }
 .my-jobs{
@@ -342,6 +342,54 @@
 #pop-it-up{
 display:none;
 }
+/*---------------Hover Проектов-----------*/
+/*.list-of-jobs {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+.my-jobs-item .my-jobs-item-inside {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  opacity: 0;
+  -o-transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+
+.list-of-jobs .my-jobs-item-inside .btn {
+  width: 120px;
+  text-align: center;
+  display: block;
+  background: #68432d;
+  color: #fff;
+  padding: 10px 0px;
+  border-radius: 5px;
+  margin: 0px auto 0px auto;
+  position: relative;
+  top: -58px;
+  opacity: 0;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.list-of-jobs:hover .btn {
+  top: 300px;
+  opacity: 1;
+}
+.list-of-jobs:hover .my-jobs-item-inside,
+.list-of-jobs:hover{
+  opacity: 1;
+  }*/
 /*---------------CONTACT FORM-------------*/
 .cont-title{
     margin:0;

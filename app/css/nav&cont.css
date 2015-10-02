@@ -68,58 +68,66 @@
 }
 .active:hover{
     color:#FFF;
-    cursor:url(/img/cursor.png), default;
+    cursor:url(../img/cursor.png), default;
 }
 /*---------------МЕНЮ КОНТАКТОВ----------*/
-.contact-menu {
-    padding:0;
-    margin:0;
-    width:251px;
+.contacts-list {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.cont {
-    background:#3ba8c0;
-    width:229px;
-    color:white;
-    font-family:'fira_sansbook';
-    font-size:21px;
-    padding:13px 2px 6px 19px;
-    border-radius:5px 5px 0 0;
+
+.contacts-item-head {
+  color: #fff;
+  background: #3BA8C0;
 }
-.mail, .phone, .skype {
-    background:#41b9d4;
-    width:206px;
-    color:white;
-    font-family:'fira_sansbook';
-    font-size:17px;
-    padding:12px 2px 11px 42px;
+
+.contacts-item-head .contacts-text-head {
+  padding: 11px 20px;
+  color: #FBFCFD;
+  font-family: "fira_sansbook";
+  font-size: 21px;
+  font-weight: 300;
 }
-.phone {
-    background:#48cbe8;
+
+.contacts-link {
+  color: #fff;
+  text-decoration: none;
 }
-.skype {
-    background:#51daf8;
-    border-radius:0 0 5px 5px;
+
+.contacts-link:hover {
+  text-decoration: underline;
+  cursor:url(../img/cursor.png), default;
 }
-.phoneimg, .skypeimg, .mailimg {
-    text-decoration:none;
-    color:#fff;
-    padding-left:40px;
-    background-position: 1px 3px;
-    word-break:break-all;
+.contacts-link:active {
+  color:#DAF3F7;
 }
-.mailimg {
-    background:url(../img/mail.png) no-repeat;
-    background-position: 0 4px;
+.contacts-link:focus {
+  cursor:pointer;
 }
-.phoneimg {
-    background:url(../img/phone.png) no-repeat;
-    background-position: 1px 3px;
+.contacts-item-mail {
+  background: #41B9D4 url(../img/mail.png) 42px 40% no-repeat;
 }
-.skypeimg {
-    background:url(../img/skypecont.png) no-repeat;
-    background-position: 1px 3px;
+
+.contacts-text {
+  padding:11px 20px;
+  color: #FBFCFD;
+  font-family: "fira_sansbook";
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 50px;
 }
-.mailimg:hover, .skypeimg:hover, .phoneimg:hover {
-    text-decoration:underline;
-    cursor:url(../img/cursor.png), default;
+
+.contacts-item-phone {
+  background: #48CBE8 url(../img/phone.png) 43px 46% no-repeat;
+}
+
+.contacts-item-skype {
+  background: #51DAF8 url(../img/skypecont.png) 43px 46% no-repeat;
 }
