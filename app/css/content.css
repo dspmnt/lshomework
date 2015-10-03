@@ -658,3 +658,58 @@ display:none;
     font-size:17px;
 }
 /*----------------END CONTENT---------------*/
+
+.work-hover{
+  position: relative;
+} 
+ 
+.work-hover{
+  width: 183px;
+  height: 130px;
+ 
+}
+/*----------------Затемнение-----------------*/
+.link-work{
+  position: absolute;
+  top: 0;
+  background: rgba(59,168,192,0.7);
+  width: 183px;
+  height: 100%;
+  opacity:0;
+  border-radius:5%;
+  -o-transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+/*-------------Выскакивающая ссылка--------*/
+.work-text{
+  width:100px; 
+  text-align: center;
+  display: block;
+  color: #fff;
+  padding:2px 0;
+  border-radius: 7px;
+  margin: 55px 0 0 40px;
+  position: relative;
+  opacity: 0;
+  text-decoration:none;
+  border:2px solid white;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.work-hover:hover .work-text{
+  top:0;
+  opacity: 1;
+}
+.work-hover:hover .link-work{
+  opacity: 1;
+}       
+
+/*------------------------------------------*/
+   
