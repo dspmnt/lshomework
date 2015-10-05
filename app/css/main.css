@@ -2,6 +2,9 @@
 @import url(nav&cont.css);
 @import url(content.css);
 @import url(footer.css);
+@import url(works.css);
+@import url(contacts.css);
+@import url(auth.css);
 /*General Styles*/
  html, body {
     height:100%;

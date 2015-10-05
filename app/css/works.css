@@ -1,0 +1,250 @@
+/*------------MY WORKS-----------*/
+.my-jobs-title{
+   margin:0;
+    color: #3ba8c0;
+    font-family:'fira_sansbook';
+    font-weight:normal;
+    font-style:normal;
+    font-size:27px;
+    width:320px;
+    padding:21px 0 19px 24px;
+    border-bottom:2px solid #3ba8c0;
+}
+.my-jobs{
+    padding:0;
+    margin-left:1px;
+}
+.my-jobs-item{
+    float:left;
+    width:179px;
+    padding:27px 15px 84px 19px;
+}
+.img-dec{
+    width:179px;
+    height:125px;
+    border:2px solid #30a6bd;
+    border-radius:8px 8px 8px 8px;
+}
+.my-jobs-item-inside{
+    margin:0;
+    padding-top:14px;
+    text-align:center;
+    font-family:'fira_sanslight';
+    font-size:15px;
+}
+.my-jobs-item-link{
+    margin:0;
+    font-family:'fira_sanslight_Italic';
+    font-size:13px;
+    text-align:center;
+    color:#30a6bd;
+    padding:6px 6px 0 0;
+}
+.list-of-jobs{
+    padding:0;
+}
+.link-in-jobs{
+    text-decoration:none;
+}
+.my-jobs-item-add{
+    background:transparent;
+    border:none;
+    outline:none;
+    padding-left:0;
+}
+/*-------------ADD NEW PROJECT------*/
+.popup{
+    width:362px;
+    background: #eff3f7;
+    border-radius:5px 5px 5px 5px;
+}
+.popup-head{
+    margin:0;
+    background:#48cbe8;
+    padding:12px 17px 15px 14px;
+    position:relative; 
+    overflow:hidden;
+}
+.popup-head:after{
+    content:"";
+    background: #67dffa;
+    height:9px;
+    width:362px;
+    position:absolute;
+    bottom:0;
+    display:table;
+    clear:both;
+    margin-left:-14px;
+}
+.popup-title{
+    margin:0;
+    color: #FFF;
+    font-family:'fira_sansregular';
+    font-weight:normal;
+    font-style:normal;
+    font-size:25px;
+    float:left;
+}
+.close-popup{
+    background:transparent;
+    border:none;
+    outline:none;
+    width:25px;
+    height:25px;
+    padding-left:60px;
+}
+.popup-text-font{
+    margin:0;
+    padding:6px 0 6px 21px;
+    font-family:'fira_sansbook';
+    font-size:17px;
+    color:#9ca1ae;
+    margin-left:-1px;
+}
+.popup-input{
+    margin-left:21px;
+    width:314px;
+    height:37px;
+    border: 1px solid #48cbe8; 
+    border-radius: 3px 3px;
+    font-family:'fira_sanslight';
+    color:#48cbe8; 
+    font-size:13px;
+}
+.popup-textarea{
+   margin-left:21px;
+   width:314px;
+   height:105px;
+   border:1px solid #48cbe8; 
+   border-radius: 3px 3px;
+   font-family:'fira_sanslight';
+   font-size:13px;
+   resize:none;
+}
+
+.popup-submit-one{
+  margin:8px 0 0 111px;
+  float:left;
+  padding:2px;
+  height:40px;
+  width:140px;
+  border:none;
+  outline:none;
+  font-family:'fira_sansbook';
+  font-size:19px;
+  color:white;
+  background:url(../img/submit-project.png) no-repeat center; 
+  margin-top:3px;
+}
+.popup-submit-one:hover{
+    background:url(../img/submit-project-hover.png) no-repeat center;
+}
+.popup-button{
+    padding-bottom:60px;
+}
+/*-------------FILE UPLOAD----------*/
+.file_upload{
+    width:314px;
+    margin-left:21px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;             
+    height: 40px;                 
+    line-height: 2.5em             
+}
+.file_upload .button, .file_upload > .mark-text{
+    display: block;
+    cursor: pointer            
+}
+.button{
+    text-indent:-9999px;
+}
+.file_upload .button{
+    float: right;
+    width: 49px;                 
+    height: 100%;          
+}
+.file_upload > mark{
+    background: #FFF;     
+    padding-left: 1em;          
+}
+
+.file_upload input[type=file]{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width:1px;
+    height:1px;
+}
+.file_upload{
+    border: 1px solid #48cbe8;
+    border-radius: 3px;
+}
+.file_upload .button{
+    background:url(../img/add-file.png) no-repeat;
+}
+.file_upload:hover .button{
+    background:url(../img/add-file.png) no-repeat;
+}
+.mark-text{
+    color:#48cbe8;
+    font-family:'fira_sansbook';
+    font-size:13px;
+    margin-left:-4px;
+}
+#pop-it-up{
+display:none;
+}
+/*---------------Hover Проектов-----------*/
+.work-hover{
+  position: relative;
+} 
+ 
+.work-hover{
+  width: 183px;
+  height: 130px;
+ 
+}
+/*----------------Затемнение-----------------*/
+.link-work{
+  position: absolute;
+  top: 0;
+  background: rgba(59,168,192,0.7);
+  width: 183px;
+  height: 100%;
+  opacity:0;
+  border-radius:5%;
+  -o-transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+/*-------------Выскакивающая ссылка--------*/
+.work-text{
+  width:100px; 
+  text-align: center;
+  display: block;
+  color: #fff;
+  padding:2px 0;
+  border-radius: 7px;
+  margin: 55px 0 0 40px;
+  position: relative;
+  opacity: 0;
+  text-decoration:none;
+  border:2px solid white;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.work-hover:hover .work-text{
+  top:0;
+  opacity: 1;
+}
+.work-hover:hover .link-work{
+  opacity: 1;
+}    
