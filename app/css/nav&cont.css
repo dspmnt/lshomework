@@ -85,6 +85,7 @@
 
 .contacts-item-head {
   color: #fff;
+  width:250px;
   background: #3BA8C0;
 }
 
@@ -94,10 +95,12 @@
   font-family: "fira_sansbook";
   font-size: 21px;
   font-weight: 300;
+  width:250px;
 }
 
 .contacts-link {
   color: #fff;
+  width:250px;
   text-decoration: none;
 }
 
@@ -112,10 +115,12 @@
   cursor:pointer;
 }
 .contacts-item-mail {
+  width:250px;
   background: #41B9D4 url(../img/mail.png) 42px 40% no-repeat;
 }
 
 .contacts-text {
+  width:250px;
   padding:11px 20px;
   color: #FBFCFD;
   font-family: "fira_sansbook";
@@ -125,9 +130,11 @@
 }
 
 .contacts-item-phone {
+  width:250px;
   background: #48CBE8 url(../img/phone.png) 43px 46% no-repeat;
 }
 
 .contacts-item-skype {
+  width:250px;
   background: #51DAF8 url(../img/skypecont.png) 43px 46% no-repeat;
 }

@@ -69,13 +69,14 @@
 }
 .input-auth{
     margin:0 auto;
-    width:422px;
+    width:412px;
     height:58px;
     border: 1px solid #48cbe8; 
     border-radius: 3px 3px;
     font-family:'fira_sanslight';
     color:#48cbe8; 
     font-size:13px;
+    padding-left:10px;
 }
 .auth-submit{
     float:left;

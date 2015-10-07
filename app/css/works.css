@@ -103,13 +103,14 @@
 }
 .popup-input{
     margin-left:21px;
-    width:314px;
+    width:304px;
     height:37px;
     border: 1px solid #48cbe8; 
     border-radius: 3px 3px;
     font-family:'fira_sanslight';
     color:#48cbe8; 
     font-size:13px;
+    padding-left:10px;
 }
 .popup-textarea{
    margin-left:21px;
@@ -120,24 +121,29 @@
    font-family:'fira_sanslight';
    font-size:13px;
    resize:none;
+   padding:10px 0 0 10px;
+   color:#48cbe8; 
 }
 
 .popup-submit-one{
   margin:8px 0 0 111px;
   float:left;
   padding:2px;
-  height:40px;
+  height:30px;
   width:140px;
   border:none;
   outline:none;
   font-family:'fira_sansbook';
   font-size:19px;
   color:white;
-  background:url(../img/submit-project.png) no-repeat center; 
-  margin-top:3px;
+  background:#48cbe8;
+  border-radius:7px 7px;
+  box-shadow: 0 -2px rgb(32,96,110) inset;
+  margin-top:12px;
 }
 .popup-submit-one:hover{
-    background:url(../img/submit-project-hover.png) no-repeat center;
+  background:#40B2CB;
+  box-shadow: 0 0 0 rgb(0,0,0) inset;
 }
 .popup-button{
     padding-bottom:60px;

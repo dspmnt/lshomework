@@ -31,13 +31,14 @@
     float:left;
 }
 .input{
-    width:190px;
+    width:171px;
     height:37px;
     border: 1px solid #48cbe8; 
     border-radius: 3px 3px;
     font-family:'fira_sanslight';
     color:#48cbe8; 
     font-size:13px;
+    padding-left:10px;
 }
 .form-text-font{
     margin:0;
@@ -55,13 +56,15 @@
     color:#9ca1ae;
 }
 .textarea{
-   width:396px;
-   height:177px;
+   width:381px;
+   height:167px;
    border:1px solid #48cbe8; 
    border-radius: 3px 3px;
    font-family:'fira_sanslight';
    font-size:13px;
    resize:none;
+   padding:10px 0 0 10px;
+   color:#48cbe8; 
 }
 .form-text-captcha{
    padding-bottom:4px;
@@ -76,13 +79,14 @@
 }
 .captcha-input{
     margin:21px 0 0 19px;
-    width:190px;
+    width:171px;
     height:28px;
     border: 1px solid #48cbe8; 
     border-radius: 3px 3px;
     font-family:'fira_sanslight';
     color:#48cbe8; 
     font-size:13px;
+    padding-left:10px;
 }
 .buttons{
     width:402px;
@@ -91,32 +95,35 @@
   float:left;
   padding:2px;
   width:140px;
-  height:40px;
+  height:30px;
   border:none;
   outline:none;
   font-family:'fira_sansbook';
   font-size:19px;
-  color:white;
-  background:url(../img/submit-one.png) no-repeat center;  
+  color:white;  
+  background:#48cbe8;
+  border-radius:7px 7px;
+  box-shadow: 0 -2px rgb(32,96,110) inset;
+}
+.submit-one:hover{
+  background:#40B2CB;
+  box-shadow: 0 0 0 rgb(0,0,0) inset;
 }
 .submit-two{
   float:right;
   margin-right:-2px;
   width:128px;
-  height:40px;
+  height:30px;
   border:none;
   outline:none;
   font-family:'fira_sansbook';
   font-size:19px;
   color:white;
-  background:url(../img/submit-two.png) no-repeat center; 
-
-}
-.submit-one:hover{
-    background:url(../img/submit-one-hover.png) no-repeat;
-    padding-bottom:8px;
+  background:#849DB5;
+  border-radius:7px 7px;
+  box-shadow: 0 -2px rgb(32,96,110) inset;
 }
 .submit-two:hover{
-    background:url(../img/submit-two-hover.png) no-repeat;
-    padding-bottom:8px;
+  background:#71869B;
+  box-shadow: 0 0 0 rgb(0,0,0) inset;
 }
