@@ -33,12 +33,14 @@
 .input{
     width:171px;
     height:37px;
+    height:27px\0/;
     border: 1px solid #48cbe8; 
     border-radius: 3px 3px;
     font-family:'fira_sanslight';
     color:#48cbe8; 
     font-size:13px;
     padding-left:10px;
+    padding-top:13px\0/;
 }
 .form-text-font{
     margin:0;
@@ -81,12 +83,14 @@
     margin:21px 0 0 19px;
     width:171px;
     height:28px;
+    height:25px\0/;
     border: 1px solid #48cbe8; 
     border-radius: 3px 3px;
     font-family:'fira_sanslight';
     color:#48cbe8; 
     font-size:13px;
     padding-left:10px;
+    padding-top:7px\0/;
 }
 .buttons{
     width:402px;

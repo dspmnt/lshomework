@@ -47,4 +47,3 @@ $( window ).resize(function(){
         });
     });
  })(jQuery);
-
