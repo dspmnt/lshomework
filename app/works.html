@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="fonts/fira.css">
+	<link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
 	<!--Favicon-->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
@@ -140,8 +141,9 @@
 			</div>
 		</div>
 		<div class="popup-body">
+		<form id="forms" name="form" method="" action="">
 				<label class="popup-project"><p class="popup-text-font">Название проекта</p>
-				<input class="popup-input" value="" type="text" name="name" id="name" placeholder="Введите название">
+				<input class="popup-input" value="" type="text" name="name" id="name" placeholder="Введите название" qtip-position="left" qtip-content="Введите название">
 			</label>
 			<div class="title-fileupload"><p class="popup-text-font">Картинка проекта</p></div>
 				<label class="file_upload">
@@ -150,14 +152,15 @@
         <input type="file">
     </label>
 			<label class="popup-link"><p class="popup-text-font">URL проекта</p>
-				<input class="popup-input" value="" type="text" name="name" id="name" placeholder="Добавьте ссылку">
+				<input class="popup-input" value="" type="text" name="name" id="name" placeholder="Добавьте ссылку" qtip-position="left" qtip-content="Укажите ссылку на проект">
 			</label>
 			<label class="popup-description"><p class="popup-text-font">Описание</p>
-				<textarea class="popup-textarea" name="message" id="message" placeholder="Пара слов о вашем проекте"></textarea>
+				<textarea class="popup-textarea" name="message" id="message" placeholder="Пара слов о вашем проекте" qtip-position="left" qtip-content="Введите описание проекта"></textarea>
 				</label>
 				<div class="popup-button">
 					<button class="popup-submit-one" type="submit" name="submit" id="submit" value="">Добавить</button>
 				</div>
+			</form>
 		</div><!--end popup-body-->
 	</div><!--end popup-->
 	 
@@ -174,10 +177,12 @@
 		</div><!--end wrap-right-->
 		</div><!--end main-wrap-->
 	</footer><!--end footer-->
-		<script src="../bower/jquery/jquery.js"></script>
-		<script src="js/main.js"></script>
-		<script src="bower/bPopup/jquery.bpopup.min.js"></script>
+		<script src="../bower/jquery/jquery.js"> </script>
+		<script src="bower/qtip2/jquery.qtip.js"></script>
 		<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/validate.js"></script>
 		<script src="js/contacts.js"></script>
+		<script src="bower/bPopup/jquery.bpopup.min.js"></script>
 </body>
 </html>

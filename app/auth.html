@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="fonts/fira.css">
+	<link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
 	<!--Favicon-->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
@@ -37,12 +38,12 @@
 		<li class="auth-item">
 						<div class="clearfix"><h2 class="auth-title">Авторизируйтесь</h2></div>
 						<div class="auth-form clearfix">
-							<form name="form" method="post" action="">
+							<form id="forms" name="form" method="" action="">
 				<label class="login clearfix"><p class="auth-text-font">Логин</p>
-				<input class="input-auth" value="" type="text" name="name" id="name" placeholder="Введите логин">
+				<input class="input-auth" value="" type="text" name="name" id="name" placeholder="Введите логин" qtip-position="left" qtip-content="Введите логин">
 			</label>
 				<label class="pass"><p class="auth-text-font">Пароль</p>
-				<input class="input-auth" value="" type="text" name="email" id="email" placeholder="Введите пароль">
+				<input class="input-auth" value="" type="text" name="email" id="email" placeholder="Введите пароль" qtip-position="left" qtip-content="Введите пароль">
 			</label>
 		
 			<div class="auth-buttons clearfix">
@@ -62,8 +63,10 @@
 		</div><!--end main-wrap-->
 	</footer><!--end footer-->
 		<script src="../bower/jquery/jquery.js"> </script>
+		<script src="bower/qtip2/jquery.qtip.js"></script>
 		<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/validate.js"></script>
 		<script src="js/contacts.js"></script>
 </body>
 </html>

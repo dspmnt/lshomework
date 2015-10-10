@@ -29,12 +29,11 @@ $( window ).resize(function(){
     $( ".file_upload input" ).triggerHandler( "change" );
 });
 /*Всплывающее POPUP окно Добавления проекта*/
- ;(function($) {
-    $(function() {
+    var popup = (function(){
         var popup;
         $('#popup-button').on('click', function(e){
             e.preventDefault();
-     popup = $('#pop-it-up').bPopup({
+            popup = $('#pop-it-up').bPopup({
             speed: 650,
             transition: 'slideDown',
             transitionClose: 'slideDown',
@@ -45,5 +44,27 @@ $( window ).resize(function(){
         $('#close-it').on('click', function(e){
             popup.close();
         });
-    });
- })(jQuery);
+
+        var init = function(){
+        _setUpListners();
+        };
+
+        var _setUpListners = function(){
+        $('#close-it').on('click', _removeError);
+        $('#close-it').on('click', clearForm);
+        };
+
+        var _removeError = function(){
+        $('input, textarea').removeClass('error');
+        };
+
+        var clearForm = function(){
+        $('input, textarea').trigger('hideTooltip');
+        };
+
+        return{
+        init: init
+        };
+
+    })();
+    popup.init();
