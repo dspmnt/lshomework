@@ -68,10 +68,6 @@
    padding:10px 0 0 10px;
    color:#48cbe8; 
 }
-.error{
-  background: #fad6d4;
-  border:1px solid #f97e76;
-}
 .form-text-captcha{
    padding-bottom:4px;
    margin:14px 0 0 -2px;
@@ -136,4 +132,8 @@
   background:#71869B;
   box-shadow: 0 0 0 rgb(0,0,0) inset;
   padding-top:3px;
+}
+.error{
+  background: #fad6d4;
+  border:1px solid #f97e76;
 }

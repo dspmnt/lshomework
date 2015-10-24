@@ -174,8 +174,8 @@
     width: 49px;                 
     height: 100%;          
 }
-.file_upload > mark{
-    background: #FFF;     
+.file_upload mark{
+    background: #FFF;    
     padding-left: 1em;          
 }
 

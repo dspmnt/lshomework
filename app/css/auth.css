@@ -103,3 +103,7 @@
     margin:30px 0 0 180px;
     padding-bottom:20px;
 }
+.error{
+  background: #fad6d4 !important;
+  border:1px solid #f97e76 !important;
+}

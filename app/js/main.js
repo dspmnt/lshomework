@@ -55,11 +55,12 @@ $( window ).resize(function(){
         };
 
         var _removeError = function(){
-        $('input, textarea').removeClass('error');
+        $('input, textarea, mark').removeClass('error');
         };
 
         var clearForm = function(){
-        $('input, textarea').trigger('hideTooltip');
+        $('input, textarea, mark').trigger('hideTooltip');
+
         };
 
         return{
